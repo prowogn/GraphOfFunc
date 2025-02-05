@@ -1,0 +1,110 @@
+{
+  "$schema": "https://raw.githubusercontent.com/spdx/spdx-spec/v2.2.1/schemas/spdx-schema.json",
+  "spdxVersion": "SPDX-2.2",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "documentNamespace": "https://spdx.org/spdxdocs/raygui-x64-windows-4.0-51db1a9b-c2d2-487b-95b5-a4589d3a042b",
+  "name": "raygui:x64-windows@4.0 7d7ca7d19d8129e479d6cbcf147fcb428670573c0cdf4d8c2cdffbf69b7a42be",
+  "creationInfo": {
+    "creators": [
+      "Tool: vcpkg-2024-09-30-ab8988503c7cffabfd440b243a383c0a352a023d"
+    ],
+    "created": "2025-02-05T08:16:27Z"
+  },
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "GENERATES",
+      "relatedSpdxElement": "SPDXRef-binary"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-0"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-1"
+    },
+    {
+      "spdxElementId": "SPDXRef-binary",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-0",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-1",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    }
+  ],
+  "packages": [
+    {
+      "name": "raygui",
+      "SPDXID": "SPDXRef-port",
+      "versionInfo": "4.0",
+      "downloadLocation": "git+https://github.com/microsoft/vcpkg@d9b03e4c1effd2eabeac64b8475b55aedea84511",
+      "homepage": "https://github.com/raysan5/raylib",
+      "licenseConcluded": "Zlib",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "description": "A simple and easy-to-use immediate-mode gui library",
+      "comment": "This is the port (recipe) consumed by vcpkg."
+    },
+    {
+      "name": "raygui:x64-windows",
+      "SPDXID": "SPDXRef-binary",
+      "versionInfo": "7d7ca7d19d8129e479d6cbcf147fcb428670573c0cdf4d8c2cdffbf69b7a42be",
+      "downloadLocation": "NONE",
+      "licenseConcluded": "Zlib",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "comment": "This is a binary package built by vcpkg."
+    },
+    {
+      "SPDXID": "SPDXRef-resource-1",
+      "name": "raysan5/raygui",
+      "downloadLocation": "git+https://github.com/raysan5/raygui@4.0",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "8e59889af6b6163b9ff9930ae79bdfaab5015e39279d1a50d3f74c0f50b12b2015fdf17016b04d2c4f66420f4e631b25a51ede5c1627dfcde269457f55f34ff1"
+        }
+      ]
+    }
+  ],
+  "files": [
+    {
+      "fileName": "./C:/Users/admin/AppData/Local/vcpkg/registries/git-trees/d9b03e4c1effd2eabeac64b8475b55aedea84511/portfile.cmake",
+      "SPDXID": "SPDXRef-file-0",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "3b1b336163a7e487e6d676e6855e128da1b8086488bd2568273053fec52f933a"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./C:/Users/admin/AppData/Local/vcpkg/registries/git-trees/d9b03e4c1effd2eabeac64b8475b55aedea84511/vcpkg.json",
+      "SPDXID": "SPDXRef-file-1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "d29a98cf3aeaafe477830c4b03b0a93cb57c8ed7c93257c5bed29f219b237ba5"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    }
+  ]
+}

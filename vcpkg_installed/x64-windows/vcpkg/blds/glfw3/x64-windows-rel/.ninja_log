@@ -1,0 +1,26 @@
+# ninja log v6
+42	590	7604466120238351	src/CMakeFiles/glfw.dir/window.c.obj	d262b2a5f7958c8d
+36	605	7604466120238351	src/CMakeFiles/glfw.dir/vulkan.c.obj	aa85b795ce3a9173
+52	619	7604466120394608	src/CMakeFiles/glfw.dir/osmesa_context.c.obj	f3262bcfe95d4bd0
+24	633	7604466120082149	src/CMakeFiles/glfw.dir/monitor.c.obj	ab777edf585cd7c7
+30	645	7604466120082149	src/CMakeFiles/glfw.dir/platform.c.obj	9de3f4ae9bd623c2
+16	686	7604466119925875	src/CMakeFiles/glfw.dir/init.c.obj	7bbcc660eae310dc
+11	725	7604466119925875	src/CMakeFiles/glfw.dir/context.c.obj	c7b1991e84b8009e
+20	733	7604466120082149	src/CMakeFiles/glfw.dir/input.c.obj	94e39dc977d97562
+46	1028	7604466120238351	src/CMakeFiles/glfw.dir/egl_context.c.obj	28dbbb43cb61d382
+606	1037	7604466125863385	src/CMakeFiles/glfw.dir/null_monitor.c.obj	975954571bb8d086
+646	1099	7604466126332134	src/CMakeFiles/glfw.dir/win32_module.c.obj	82d7f9010a17ffeb
+686	1110	7604466126644592	src/CMakeFiles/glfw.dir/win32_time.c.obj	226ebe01fada90f6
+620	1120	7604466126019704	src/CMakeFiles/glfw.dir/null_window.c.obj	3e1b8d626b2a0f7b
+593	1140	7604466125707115	src/CMakeFiles/glfw.dir/null_init.c.obj	672a73f7f7f5127f
+633	1186	7604466126175890	src/CMakeFiles/glfw.dir/null_joystick.c.obj	bcc63a341065c6fa
+725	1193	7604466127113345	src/CMakeFiles/glfw.dir/win32_thread.c.obj	3f720565d70d0a5c
+734	1223	7604466127113345	src/CMakeFiles/glfw.dir/win32_init.c.obj	f05c84cce6cf00d1
+1120	1254	7604466131019630	src/CMakeFiles/glfw.dir/glfw.rc.res	fdbc0e0b9a40fc7e
+1038	1481	7604466130238382	src/CMakeFiles/glfw.dir/win32_monitor.c.obj	9b3d66e09a74f822
+1028	1514	7604466130082098	src/CMakeFiles/glfw.dir/win32_joystick.c.obj	5cdb9ccf96343d1c
+1111	1518	7604466130863366	src/CMakeFiles/glfw.dir/wgl_context.c.obj	addcc123b64c34f1
+1099	1571	7604466130863366	src/CMakeFiles/glfw.dir/win32_window.c.obj	a1cd7c2f2de9fc3e
+1572	1698	7604466136644578	src/glfw3.dll	29698d0067821246
+1572	1698	7604466136644578	src/glfw3dll.lib	29698d0067821246
+1698	1820	7604466136800833	CMakeFiles/install.util	ec7b72fea2e5fe5d

@@ -1,0 +1,8 @@
+C:/Users/admin/source/repos/GraphOfFunc/vcpkg_installed/x64-windows/vcpkg/pkgs/nanosvg_x64-windows/debug/lib/nanosvg.lib
+C:/Users/admin/source/repos/GraphOfFunc/vcpkg_installed/x64-windows/vcpkg/pkgs/nanosvg_x64-windows/debug/lib/nanosvgrast.lib
+C:/Users/admin/source/repos/GraphOfFunc/vcpkg_installed/x64-windows/vcpkg/pkgs/nanosvg_x64-windows/debug/include/nanosvg/nanosvg.h
+C:/Users/admin/source/repos/GraphOfFunc/vcpkg_installed/x64-windows/vcpkg/pkgs/nanosvg_x64-windows/debug/include/nanosvg/nanosvgrast.h
+C:/Users/admin/source/repos/GraphOfFunc/vcpkg_installed/x64-windows/vcpkg/pkgs/nanosvg_x64-windows/debug/lib/cmake/NanoSVG/NanoSVGTargets.cmake
+C:/Users/admin/source/repos/GraphOfFunc/vcpkg_installed/x64-windows/vcpkg/pkgs/nanosvg_x64-windows/debug/lib/cmake/NanoSVG/NanoSVGTargets-debug.cmake
+C:/Users/admin/source/repos/GraphOfFunc/vcpkg_installed/x64-windows/vcpkg/pkgs/nanosvg_x64-windows/debug/lib/cmake/NanoSVG/NanoSVGConfig.cmake
+C:/Users/admin/source/repos/GraphOfFunc/vcpkg_installed/x64-windows/vcpkg/pkgs/nanosvg_x64-windows/debug/lib/cmake/NanoSVG/NanoSVGConfigVersion.cmake

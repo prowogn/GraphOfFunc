@@ -1,0 +1,26 @@
+# ninja log v6
+22	484	7604466101644621	src/CMakeFiles/glfw.dir/monitor.c.obj	bb1386cad274d409
+31	498	7604466101644621	src/CMakeFiles/glfw.dir/vulkan.c.obj	267c28f0041f6d28
+14	509	7604466101488625	src/CMakeFiles/glfw.dir/init.c.obj	bfc226408c7372cd
+35	520	7604466101800852	src/CMakeFiles/glfw.dir/window.c.obj	97d15c101d41881d
+44	530	7604466101800852	src/CMakeFiles/glfw.dir/osmesa_context.c.obj	1da2b383fa0368cd
+26	541	7604466101644621	src/CMakeFiles/glfw.dir/platform.c.obj	9b231cbe68d399a4
+18	550	7604466101644621	src/CMakeFiles/glfw.dir/input.c.obj	80cf077f1748468a
+40	559	7604466101800852	src/CMakeFiles/glfw.dir/egl_context.c.obj	8dc8282fe67a2fa4
+10	783	7604466101488625	src/CMakeFiles/glfw.dir/context.c.obj	914989731f51e794
+521	948	7604466106644618	src/CMakeFiles/glfw.dir/null_joystick.c.obj	625666a42385ddbe
+531	959	7604466106644618	src/CMakeFiles/glfw.dir/win32_module.c.obj	2d9c80bcc6bbd299
+487	968	7604466106332131	src/CMakeFiles/glfw.dir/null_init.c.obj	aee0fb104f313bcc
+499	979	7604466106332131	src/CMakeFiles/glfw.dir/null_monitor.c.obj	2333cf73b505f93
+510	1049	7604466106488356	src/CMakeFiles/glfw.dir/null_window.c.obj	1210ce81895cc0ef
+550	1055	7604466106957107	src/CMakeFiles/glfw.dir/win32_thread.c.obj	13aef2aa696106c4
+541	1058	7604466106800845	src/CMakeFiles/glfw.dir/win32_time.c.obj	8e37897212e3957
+559	1111	7604466106957107	src/CMakeFiles/glfw.dir/win32_init.c.obj	22909d3b9cbf6af0
+979	1157	7604466111175860	src/CMakeFiles/glfw.dir/glfw.rc.res	a29dc0fe09861341
+949	1339	7604466110863366	src/CMakeFiles/glfw.dir/win32_monitor.c.obj	89967a6ee48ab08b
+783	1344	7604466109300853	src/CMakeFiles/glfw.dir/win32_joystick.c.obj	a7b224591396c18e
+969	1350	7604466111019599	src/CMakeFiles/glfw.dir/wgl_context.c.obj	46c6419c53b3130e
+959	1368	7604466111019599	src/CMakeFiles/glfw.dir/win32_window.c.obj	c021c0938ade0ea3
+1368	1651	7604466117738329	src/glfw3.dll	73a174df6ed59c68
+1368	1651	7604466117738329	src/glfw3dll.lib	73a174df6ed59c68
+1651	1811	7604466117894604	CMakeFiles/install.util	7335b41d5eab46ad

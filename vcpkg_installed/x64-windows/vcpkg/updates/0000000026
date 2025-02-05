@@ -1,0 +1,10 @@
+Package: raylib
+Version: 5.0
+Port-Version: 1
+Depends: cgltf, dirent, drlibs, glfw3, miniaudio, mmx, nanosvg, qoi, stb, vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows
+Multi-Arch: same
+Abi: fcc307af857513332a7f53e301a874c483e60c23e62deb09f047b622ab59a8c2
+Description: A simple and easy-to-use library to enjoy videogames programming
+Default-Features: use-audio
+Status: install ok installed
