@@ -2,5 +2,5 @@ Package: drlibs
 Version: 2023-08-16
 Architecture: x64-windows
 Multi-Arch: same
-Abi: b6f34510c2f1653f7279e737ad92a1467920dd2505daaf4aec93348a29713024
+Abi: 85ee48db3c03a97a9a4403109f0d7108cd211f65fc60554787971d46323694e3
 Description: Single-file audio decoding libraries for C/C++

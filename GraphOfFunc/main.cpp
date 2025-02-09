@@ -1,53 +1,90 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <iostream>
+#include <string>
+#include <algorithm>  // Для std::min и std::max
 #include <raylib.h>
 #define RAYGUI_IMPLEMENTATION
 #include <raygui.h>
 
-int main()
+int main(void)
 {
-	// параметры экрана, константы
+    // Параметры окна
+    const int screenWidth = 1280;
+    const int screenHeight = 720;
+    const char* windowTitle = "Graph Renderer";
 
-	const int screenWidth = 800;
-	const int screenHeight = 600;
-	const char* windowTitle = "Graph Renderer";
+    InitWindow(screenWidth, screenHeight, windowTitle);
+    SetTargetFPS(60);
 
-	InitWindow(screenWidth, screenHeight, windowTitle); //инициализация окна
+    // Инициализация 2D-камеры
+    Camera2D camera = { 0 };
+    camera.target = { 0, 0 };                                // Камера смотрит на начало координат
+    camera.offset = { screenWidth / 2.0f, screenHeight / 2.0f }; // Смещение камеры — центр экрана
+    camera.rotation = 0.0f;
+    camera.zoom = 1.0f;
 
-	SetTargetFPS(60); //FPS
+    // Переменные для GUI
+    char inputText[64] = "sin(x)";
+    bool inputMode = false;
+    std::string func;
 
-	// переменные gui
+    while (!WindowShouldClose())
+    {
+        // Обновление камеры: перемещение с помощью клавиш WASD
+        float cameraSpeed = 300.0f * GetFrameTime(); // скорость перемещения камеры в пикселях/сек
+        if (IsKeyDown(KEY_D)) camera.target.x += cameraSpeed;
+        if (IsKeyDown(KEY_A)) camera.target.x -= cameraSpeed;
+        if (IsKeyDown(KEY_W)) camera.target.y -= cameraSpeed;
+        if (IsKeyDown(KEY_S)) camera.target.y += cameraSpeed;
 
-	char inputText[64] = "sin(x)";   // буфер для хранения функции
-	bool inputMode = false;          // режим ввода
-	bool plotButtonPressed = false;  // состояние кнопки построения графика
+        // Ускоренный зум камеры с помощью колесика мыши
+        float wheel = GetMouseWheelMove();
+        if (wheel != 0)
+        {
+            camera.zoom += wheel * 0.1f; // увеличенный коэффициент зума
+            if (camera.zoom < 0.1f) camera.zoom = 0.1f; // ограничение минимума зума
+        }
 
-	std::string func;
+        BeginDrawing();
+        ClearBackground(RAYWHITE);
 
-	while (!WindowShouldClose()) //основной цикл приложения
-	{
-		BeginDrawing(); //начало отрисовки
+        // Отрисовка осей с учётом параметров камеры
+        BeginMode2D(camera);
+        // Определяем границы видимой области в мировых координатах
+        Vector2 topLeft = GetScreenToWorld2D({ 0, 0 }, camera);
+        Vector2 topRight = GetScreenToWorld2D({ (float)screenWidth, 0 }, camera);
+        Vector2 bottomLeft = GetScreenToWorld2D({ 0, (float)screenHeight }, camera);
+        Vector2 bottomRight = GetScreenToWorld2D({ (float)screenWidth, (float)screenHeight }, camera);
 
-		ClearBackground(RAYWHITE); //заливка бэкграунда
-		
-		if (GuiTextBox({ 10, 10, 200, 30 }, inputText, 64, inputMode))
-		{
-			inputMode = !inputMode;
-		}
+        float minX = std::min({ topLeft.x, topRight.x, bottomLeft.x, bottomRight.x });
+        float maxX = std::max({ topLeft.x, topRight.x, bottomLeft.x, bottomRight.x });
+        float minY = std::min({ topLeft.y, topRight.y, bottomLeft.y, bottomRight.y });
+        float maxY = std::max({ topLeft.y, topRight.y, bottomLeft.y, bottomRight.y });
 
-		if (GuiButton({ 220, 10, 120, 30 }, "Build graph"))
-		{
-			func = inputText;
-		}
+        // Рисуем "бесконечные" оси через начало координат:
+        DrawLineEx({ minX, 0 }, { maxX, 0 }, 2.0f, BLACK);  // Ось X
+        DrawLineEx({ 0, minY }, { 0, maxY }, 2.0f, BLACK);    // Ось Y
+        EndMode2D();
 
-			DrawText(TextFormat("Function: %s", func.c_str()), 10, 50, 20, BLACK);
-			plotButtonPressed = true;
+        // Отрисовка GUI (элементы не зависят от камеры)
+        if (GuiTextBox({ 10, 10, 250, 30 }, inputText, 64, inputMode))
+        {
+            inputMode = !inputMode;
+        }
+        if (GuiButton({ 270, 10, 140, 30 }, "Build graph"))
+        {
+            func = inputText;
+        }
+        if (GuiButton({ 420, 10, 140, 30 }, "Center Camera"))
+        {
+            camera.target = { 0, 0 };
+            camera.zoom = 1.0f;
+        }
+        DrawText(TextFormat("Function: %s", func.c_str()), 10, 50, 20, BLACK);
 
+        EndDrawing();
+    }
 
-		EndDrawing(); //конец отрисовки
-	}
-
-	CloseWindow(); //закрытые окна
-
-	return 0;
+    CloseWindow();
+    return 0;
 }

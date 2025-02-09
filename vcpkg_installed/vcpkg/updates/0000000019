@@ -1,7 +1,7 @@
-Package: drlibs
-Version: 2023-08-16
+Package: qoi
+Version: 2023-08-10
 Architecture: x64-windows
 Multi-Arch: same
-Abi: b6f34510c2f1653f7279e737ad92a1467920dd2505daaf4aec93348a29713024
-Description: Single-file audio decoding libraries for C/C++
-Status: install ok installed
+Abi: dc38f353175a61f797d110d68c7dda6d273f02e97e175ede298fc1b5b223937f
+Description: The Quite OK Image Format for fast, lossless image compression
+Status: purge ok not-installed

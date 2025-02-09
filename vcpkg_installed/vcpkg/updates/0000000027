@@ -1,6 +1,7 @@
-Package: raylib
-Feature: use-audio
+Package: raygui
+Version: 4.0
 Architecture: x64-windows
 Multi-Arch: same
-Description: Build raylib with audio module
-Status: install ok installed
+Abi: 7d7ca7d19d8129e479d6cbcf147fcb428670573c0cdf4d8c2cdffbf69b7a42be
+Description: A simple and easy-to-use immediate-mode gui library
+Status: purge ok not-installed
