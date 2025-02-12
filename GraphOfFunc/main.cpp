@@ -4,22 +4,14 @@
 #include <raylib.h>               // функционал
 #define RAYGUI_IMPLEMENTATION
 #include <raygui.h>               // интерфейс
+#include "../vcpkg_installed/x64-windows/include/raymath.h"
 
-
-// Глобальные переменные (в начале кода)
-float targetAxisThickness = 2.0f;
-float currentAxisThickness = 2.0f;
 
 template <typename T>
 T Clamp(T value, T min, T max) {
     if (value < min) return min;
     if (value > max) return max;
     return value;
-}
-
-float Lerp(float start, float end, float t) {
-    t = Clamp(t, 0.0f, 1.0f); // Ограничиваем t диапазоном [0, 1]
-    return start + t * (end - start);
 }
 
 float CalculateGridStep(float zoom) {
@@ -37,7 +29,7 @@ float CalculateGridStep(float zoom) {
 }
 
 void DrawGrid(Camera2D camera, int screenWidth, int screenHeight) {
-    // Получаем границы видимой области в мировых координатах
+    // получаем границы видимой области в мировых координатах
     Vector2 topLeft = GetScreenToWorld2D({ 0, 0 }, camera);
     Vector2 topRight = GetScreenToWorld2D({ (float)screenWidth, 0 }, camera);
     Vector2 bottomLeft = GetScreenToWorld2D({ 0, (float)screenHeight }, camera);
@@ -48,14 +40,13 @@ void DrawGrid(Camera2D camera, int screenWidth, int screenHeight) {
     float minY = std::min({ topLeft.y, topRight.y, bottomLeft.y, bottomRight.y });
     float maxY = std::max({ topLeft.y, topRight.y, bottomLeft.y, bottomRight.y });
 
-    // Рассчитываем толщину линий сетки
-    float gridThickness = Lerp(0.8f, 0.3f, camera.zoom / 5.0f); // Пример нелинейной интерполяции
-    gridThickness = Clamp(gridThickness, 0.2f, 1.5f);
+    // Вычисляем толщину линий сетки аналогично осевым (например, сетка в два раза тоньше осей)
+    float gridThickness = (2.0f / camera.zoom) * 0.5f; // или просто 1.0f / camera.zoom
 
     // Вычисляем шаг сетки
     float gridStep = CalculateGridStep(camera.zoom);
 
-    // Рисуем вертикальные линии (параллельные оси Y)
+    // Рисуем вертикальные линии
     for (float x = gridStep; x < maxX; x += gridStep) {
         DrawLineEx({ x, minY }, { x, maxY }, gridThickness, ColorAlpha(LIGHTGRAY, 0.7f));
     }
@@ -63,7 +54,7 @@ void DrawGrid(Camera2D camera, int screenWidth, int screenHeight) {
         DrawLineEx({ x, minY }, { x, maxY }, gridThickness, ColorAlpha(LIGHTGRAY, 0.7f));
     }
 
-    // Рисуем горизонтальные линии (параллельные оси X)
+    // Рисуем горизонтальные линии
     for (float y = gridStep; y < maxY; y += gridStep) {
         DrawLineEx({ minX, y }, { maxX, y }, gridThickness, ColorAlpha(LIGHTGRAY, 0.7f));
     }
@@ -134,27 +125,44 @@ int main()
     bool inputMode = false;
     std::string func;
 
+    Vector2 prevMousePos = GetMousePosition(); // Храним предыдущую позицию мыши
 
     while (!WindowShouldClose())
     {
-        float cameraSpeed = 300.0f * GetFrameTime(); // скорость перемещения камеры в пикселях/сек
+        float cameraSpeed = 300.0f * GetFrameTime(); // Скорость перемещения камеры
 
-        // перемещение с помощью клавиш WASD
+        // Управление клавишами WASD
         if (IsKeyDown(KEY_D)) camera.target.x += cameraSpeed;
         if (IsKeyDown(KEY_A)) camera.target.x -= cameraSpeed;
         if (IsKeyDown(KEY_W)) camera.target.y -= cameraSpeed;
         if (IsKeyDown(KEY_S)) camera.target.y += cameraSpeed;
 
-        // зум камеры
+        // Зум камеры с динамическим шагом
         float wheel = GetMouseWheelMove();
         if (wheel != 0)
         {
-            camera.zoom += wheel * 0.1f; // коэффициент зума
-            if (camera.zoom < 0.1f) camera.zoom = 0.1f; // ограничение минимума зума
+            float zoomFactor = (wheel > 0) ? 1.1f : 0.9f; // Увеличение или уменьшение
+            camera.zoom *= zoomFactor;
+
+            // Ограничение минимума и максимума зума
+            if (camera.zoom < 0.1f) camera.zoom = 0.1f;
+            if (camera.zoom > 40.0f) camera.zoom = 40.0f;
         }
 
-        currentAxisThickness = Lerp(currentAxisThickness, targetAxisThickness / camera.zoom, 0.1f);
-        currentAxisThickness = Clamp(currentAxisThickness, 0.5f, 4.0f);
+        // Перемещение графика с помощью мыши
+        if (IsMouseButtonDown(MOUSE_BUTTON_LEFT))
+        {
+            Vector2 mousePos = GetMousePosition(); // Текущая позиция мыши
+            Vector2 delta = Vector2Subtract(prevMousePos, mousePos); // Разница в позициях
+            delta = Vector2Scale(delta, 1.0f / camera.zoom); // Учитываем зум
+
+            camera.target = Vector2Add(camera.target, delta); // Смещаем камеру
+        }
+
+        prevMousePos = GetMousePosition(); // Обновляем позицию мыши
+
+        // Рассчитываем толщину осей (2 пикселя)
+        float axisThickness = 2.0f / camera.zoom;
 
         BeginDrawing();
         ClearBackground(RAYWHITE);
@@ -176,11 +184,9 @@ int main()
         // Отрисовка сетки
         DrawGrid(camera, screenWidth, screenHeight);
 
-        float axisThickness = 2.0f / camera.zoom; // Базовая толщина 2px с коррекцией
-        axisThickness = Clamp(axisThickness, 0.5f, 4.0f); // Ограничиваем минимальную и максимальную толщину
-
-        DrawLineEx({ minX, 0 }, { maxX, 0 }, currentAxisThickness, BLACK);    // ось X
-        DrawLineEx({ 0, minY }, { 0, maxY }, currentAxisThickness, BLACK);    // ось Y
+        // отрисовка осей
+        DrawLineEx({ minX, 0 }, { maxX, 0 }, axisThickness, BLACK); // ось X
+        DrawLineEx({ 0, minY }, { 0, maxY }, axisThickness, BLACK); // ось Y
 
         EndMode2D();
 
