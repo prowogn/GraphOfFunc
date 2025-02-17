@@ -1,0 +1,5 @@
+C:/Users/vniki/OneDrive/Рабочий стол/GraphOfFunc/vcpkg_installed/x64-windows/vcpkg/pkgs/tinyexpr_x64-windows/debug/lib/tinyexpr.lib
+C:/Users/vniki/OneDrive/Рабочий стол/GraphOfFunc/vcpkg_installed/x64-windows/vcpkg/pkgs/tinyexpr_x64-windows/debug/bin/tinyexpr.dll
+C:/Users/vniki/OneDrive/Рабочий стол/GraphOfFunc/vcpkg_installed/x64-windows/vcpkg/pkgs/tinyexpr_x64-windows/debug/include/tinyexpr.h
+C:/Users/vniki/OneDrive/Рабочий стол/GraphOfFunc/vcpkg_installed/x64-windows/vcpkg/pkgs/tinyexpr_x64-windows/debug/share/unofficial-tinyexpr/unofficial-tinyexpr-config.cmake
+C:/Users/vniki/OneDrive/Рабочий стол/GraphOfFunc/vcpkg_installed/x64-windows/vcpkg/pkgs/tinyexpr_x64-windows/debug/share/unofficial-tinyexpr/unofficial-tinyexpr-config-debug.cmake

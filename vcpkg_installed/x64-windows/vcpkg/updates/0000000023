@@ -1,7 +1,6 @@
-Package: cgltf
-Version: 1.14
+Package: vcpkg-cmake
+Version: 2024-04-23
 Architecture: x64-windows
 Multi-Arch: same
-Abi: 7c7468c28d9e00ab6e87da8db816160baf9e20b9cac8d541d2c139436c250557
-Description: Single-file glTF 2.0 loader and writer written in C99
-Status: install ok installed
+Abi: c7241d6692ddb2c8ff48ae936b885e7a8fef40986d49e7a6c8a91f8429ba4baa
+Status: purge ok not-installed

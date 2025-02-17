@@ -1,6 +1,6 @@
-# ninja log v6
-12	85	7604465984925852	CMakeFiles/nanosvgrast.dir/nanosvgrast.c.obj	adf721ceda79ac52
-7	106	7604465984769590	CMakeFiles/nanosvg.dir/nanosvg.c.obj	b0dff93b5041de85
-106	153	7604465985863335	nanosvg.lib	9a05c9a0d9bf0d8d
-153	192	7604465986332080	nanosvgrast.lib	67a0fdd59ad401bd
-192	304	7604465986644577	CMakeFiles/install.util	3ecdfb2cf99bed4a
+# ninja log v5
+5	54	7613998335187103	CMakeFiles/nanosvgrast.dir/nanosvgrast.c.obj	73845871e884864e
+2	64	7613998335290236	CMakeFiles/nanosvg.dir/nanosvg.c.obj	e13d2ad603350690
+64	97	7613998335589660	nanosvg.lib	71ecfcf69f80c4df
+97	126	7613998335891395	nanosvgrast.lib	1a1ac3b217d0f4c6
+126	200	0	CMakeFiles/install.util	a9e1518f2d3177cb

@@ -1,0 +1,8 @@
+Package: tinyexpr
+Version: 2020-09-25
+Port-Version: 2
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 3d82f80852cdafef8f65e363fd7477cd0acb91e0c1820669e43b4874443e0d8c
+Description: Tiny recursive descent parser and evaluation engine in C

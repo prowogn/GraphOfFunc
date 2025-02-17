@@ -1,7 +1,7 @@
-C:/Users/admin/source/repos/GraphOfFunc/vcpkg_installed/x64-windows/vcpkg/blds/nanosvg/x64-windows-rel/CMakeFiles/nanosvg.dir
-C:/Users/admin/source/repos/GraphOfFunc/vcpkg_installed/x64-windows/vcpkg/blds/nanosvg/x64-windows-rel/CMakeFiles/nanosvgrast.dir
-C:/Users/admin/source/repos/GraphOfFunc/vcpkg_installed/x64-windows/vcpkg/blds/nanosvg/x64-windows-rel/CMakeFiles/edit_cache.dir
-C:/Users/admin/source/repos/GraphOfFunc/vcpkg_installed/x64-windows/vcpkg/blds/nanosvg/x64-windows-rel/CMakeFiles/rebuild_cache.dir
-C:/Users/admin/source/repos/GraphOfFunc/vcpkg_installed/x64-windows/vcpkg/blds/nanosvg/x64-windows-rel/CMakeFiles/list_install_components.dir
-C:/Users/admin/source/repos/GraphOfFunc/vcpkg_installed/x64-windows/vcpkg/blds/nanosvg/x64-windows-rel/CMakeFiles/install.dir
-C:/Users/admin/source/repos/GraphOfFunc/vcpkg_installed/x64-windows/vcpkg/blds/nanosvg/x64-windows-rel/CMakeFiles/install/local.dir
+C:/Users/vniki/OneDrive/Рабочий стол/GraphOfFunc/vcpkg_installed/x64-windows/vcpkg/blds/nanosvg/x64-windows-rel/CMakeFiles/nanosvg.dir
+C:/Users/vniki/OneDrive/Рабочий стол/GraphOfFunc/vcpkg_installed/x64-windows/vcpkg/blds/nanosvg/x64-windows-rel/CMakeFiles/nanosvgrast.dir
+C:/Users/vniki/OneDrive/Рабочий стол/GraphOfFunc/vcpkg_installed/x64-windows/vcpkg/blds/nanosvg/x64-windows-rel/CMakeFiles/edit_cache.dir
+C:/Users/vniki/OneDrive/Рабочий стол/GraphOfFunc/vcpkg_installed/x64-windows/vcpkg/blds/nanosvg/x64-windows-rel/CMakeFiles/rebuild_cache.dir
+C:/Users/vniki/OneDrive/Рабочий стол/GraphOfFunc/vcpkg_installed/x64-windows/vcpkg/blds/nanosvg/x64-windows-rel/CMakeFiles/list_install_components.dir
+C:/Users/vniki/OneDrive/Рабочий стол/GraphOfFunc/vcpkg_installed/x64-windows/vcpkg/blds/nanosvg/x64-windows-rel/CMakeFiles/install.dir
+C:/Users/vniki/OneDrive/Рабочий стол/GraphOfFunc/vcpkg_installed/x64-windows/vcpkg/blds/nanosvg/x64-windows-rel/CMakeFiles/install/local.dir

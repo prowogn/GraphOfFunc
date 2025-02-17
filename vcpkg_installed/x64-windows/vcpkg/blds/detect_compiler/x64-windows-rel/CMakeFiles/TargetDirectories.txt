@@ -1,2 +1,2 @@
-C:/Users/admin/source/repos/GraphOfFunc/vcpkg_installed/x64-windows/vcpkg/blds/detect_compiler/x64-windows-rel/CMakeFiles/edit_cache.dir
-C:/Users/admin/source/repos/GraphOfFunc/vcpkg_installed/x64-windows/vcpkg/blds/detect_compiler/x64-windows-rel/CMakeFiles/rebuild_cache.dir
+C:/Users/vniki/OneDrive/Рабочий стол/GraphOfFunc/vcpkg_installed/x64-windows/vcpkg/blds/detect_compiler/x64-windows-rel/CMakeFiles/edit_cache.dir
+C:/Users/vniki/OneDrive/Рабочий стол/GraphOfFunc/vcpkg_installed/x64-windows/vcpkg/blds/detect_compiler/x64-windows-rel/CMakeFiles/rebuild_cache.dir

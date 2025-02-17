@@ -1,0 +1,176 @@
+{
+  "$schema": "https://raw.githubusercontent.com/spdx/spdx-spec/v2.2.1/schemas/spdx-schema.json",
+  "spdxVersion": "SPDX-2.2",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "documentNamespace": "https://spdx.org/spdxdocs/tinyexpr-x64-windows-2020-09-25#2-5e117ec3-cf04-4c0b-8a58-08487dc57721",
+  "name": "tinyexpr:x64-windows@2020-09-25#2 3d82f80852cdafef8f65e363fd7477cd0acb91e0c1820669e43b4874443e0d8c",
+  "creationInfo": {
+    "creators": [
+      "Tool: vcpkg-2024-06-10-02590c430e4ed9215d27870138c2e579cc338772"
+    ],
+    "created": "2025-02-16T08:53:01Z"
+  },
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "GENERATES",
+      "relatedSpdxElement": "SPDXRef-binary"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-0"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-1"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-2"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-3"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-4"
+    },
+    {
+      "spdxElementId": "SPDXRef-binary",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-0",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-1",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-2",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-3",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-4",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    }
+  ],
+  "packages": [
+    {
+      "name": "tinyexpr",
+      "SPDXID": "SPDXRef-port",
+      "versionInfo": "2020-09-25#2",
+      "downloadLocation": "git+https://github.com/microsoft/vcpkg@30f7a31f5f6d12948d2f8650ea80859af56bb7aa",
+      "homepage": "https://codeplea.com/tinyexpr",
+      "licenseConcluded": "Zlib",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "description": "Tiny recursive descent parser and evaluation engine in C",
+      "comment": "This is the port (recipe) consumed by vcpkg."
+    },
+    {
+      "name": "tinyexpr:x64-windows",
+      "SPDXID": "SPDXRef-binary",
+      "versionInfo": "3d82f80852cdafef8f65e363fd7477cd0acb91e0c1820669e43b4874443e0d8c",
+      "downloadLocation": "NONE",
+      "licenseConcluded": "Zlib",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "comment": "This is a binary package built by vcpkg."
+    },
+    {
+      "SPDXID": "SPDXRef-resource-1",
+      "name": "codeplea/tinyexpr",
+      "downloadLocation": "git+https://github.com/codeplea/tinyexpr@ffb0d41b13e5f8d318db95feb071c220c134fe70",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "fe4975f8b444a50d7ba8135450a42007a81f1545eebd7775f92307b87b72bc9abee4591e56ddeb76ec9e5aa41f0852ba98c99881d671f47a58caca8bd1ca9999"
+        }
+      ]
+    }
+  ],
+  "files": [
+    {
+      "fileName": "./C:/Users/vniki/AppData/Local/vcpkg/registries/git-trees/30f7a31f5f6d12948d2f8650ea80859af56bb7aa/CMakeLists.txt",
+      "SPDXID": "SPDXRef-file-0",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "21e4c2f4500f1bfc9be9941ce82e903032d48f306cb3ff067b8b40019372f7f4"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./C:/Users/vniki/AppData/Local/vcpkg/registries/git-trees/30f7a31f5f6d12948d2f8650ea80859af56bb7aa/exports.def",
+      "SPDXID": "SPDXRef-file-1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "2fda4fadba5a9ef02ea0cf0665b0a3f2133b26c8566fb377c65101ce278fbb89"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./C:/Users/vniki/AppData/Local/vcpkg/registries/git-trees/30f7a31f5f6d12948d2f8650ea80859af56bb7aa/fix-issue-34.patch",
+      "SPDXID": "SPDXRef-file-2",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "c04d883a2a1ec1361b274a723d50d794f9899bce4acd40bda60efc54a3cf5714"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./C:/Users/vniki/AppData/Local/vcpkg/registries/git-trees/30f7a31f5f6d12948d2f8650ea80859af56bb7aa/portfile.cmake",
+      "SPDXID": "SPDXRef-file-3",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "e2197f17200742251ef7fa7e8cdcef6c6a3fd352295179f03e5d86664479ecdf"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./C:/Users/vniki/AppData/Local/vcpkg/registries/git-trees/30f7a31f5f6d12948d2f8650ea80859af56bb7aa/vcpkg.json",
+      "SPDXID": "SPDXRef-file-4",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "0bf17827fe9c845b6a273fc7168c5e91a794d7bed8265cd8b49c80ec4b1f752c"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    }
+  ]
+}

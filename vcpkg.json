@@ -1,6 +1,8 @@
 {
-    "dependencies": [
-        "raylib",
-        "raygui"
-    ]
+  "dependencies": [
+    "raylib",
+    "raygui",
+    "tinyexpr",
+    "muparser"
+  ]
 }

@@ -1,8 +1,8 @@
-C:/Users/admin/source/repos/GraphOfFunc/vcpkg_installed/x64-windows/vcpkg/pkgs/raylib_x64-windows/lib/raylib.lib
-C:/Users/admin/source/repos/GraphOfFunc/vcpkg_installed/x64-windows/vcpkg/pkgs/raylib_x64-windows/bin/raylib.dll
-C:/Users/admin/source/repos/GraphOfFunc/vcpkg_installed/x64-windows/vcpkg/pkgs/raylib_x64-windows/include/raylib.h
-C:/Users/admin/source/repos/GraphOfFunc/vcpkg_installed/x64-windows/vcpkg/pkgs/raylib_x64-windows/include/rlgl.h
-C:/Users/admin/source/repos/GraphOfFunc/vcpkg_installed/x64-windows/vcpkg/pkgs/raylib_x64-windows/include/raymath.h
-C:/Users/admin/source/repos/GraphOfFunc/vcpkg_installed/x64-windows/vcpkg/pkgs/raylib_x64-windows/lib/pkgconfig/raylib.pc
-C:/Users/admin/source/repos/GraphOfFunc/vcpkg_installed/x64-windows/vcpkg/pkgs/raylib_x64-windows/lib/cmake/raylib/raylib-config-version.cmake
-C:/Users/admin/source/repos/GraphOfFunc/vcpkg_installed/x64-windows/vcpkg/pkgs/raylib_x64-windows/lib/cmake/raylib/raylib-config.cmake
+C:/Users/vniki/OneDrive/Рабочий стол/GraphOfFunc/vcpkg_installed/x64-windows/vcpkg/pkgs/raylib_x64-windows/lib/raylib.lib
+C:/Users/vniki/OneDrive/Рабочий стол/GraphOfFunc/vcpkg_installed/x64-windows/vcpkg/pkgs/raylib_x64-windows/bin/raylib.dll
+C:/Users/vniki/OneDrive/Рабочий стол/GraphOfFunc/vcpkg_installed/x64-windows/vcpkg/pkgs/raylib_x64-windows/include/raylib.h
+C:/Users/vniki/OneDrive/Рабочий стол/GraphOfFunc/vcpkg_installed/x64-windows/vcpkg/pkgs/raylib_x64-windows/include/rlgl.h
+C:/Users/vniki/OneDrive/Рабочий стол/GraphOfFunc/vcpkg_installed/x64-windows/vcpkg/pkgs/raylib_x64-windows/include/raymath.h
+C:/Users/vniki/OneDrive/Рабочий стол/GraphOfFunc/vcpkg_installed/x64-windows/vcpkg/pkgs/raylib_x64-windows/lib/pkgconfig/raylib.pc
+C:/Users/vniki/OneDrive/Рабочий стол/GraphOfFunc/vcpkg_installed/x64-windows/vcpkg/pkgs/raylib_x64-windows/lib/cmake/raylib/raylib-config-version.cmake
+C:/Users/vniki/OneDrive/Рабочий стол/GraphOfFunc/vcpkg_installed/x64-windows/vcpkg/pkgs/raylib_x64-windows/lib/cmake/raylib/raylib-config.cmake

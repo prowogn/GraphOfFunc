@@ -3,13 +3,13 @@
   "spdxVersion": "SPDX-2.2",
   "dataLicense": "CC0-1.0",
   "SPDXID": "SPDXRef-DOCUMENT",
-  "documentNamespace": "https://spdx.org/spdxdocs/nanosvg-x64-windows-2023-12-29-25110da8-2fdf-4356-806d-ae7c32b87c72",
-  "name": "nanosvg:x64-windows@2023-12-29 1329c9f1d39da94ae013a658da6e252e6fd2c59b578e8e34849b52e4a613ed82",
+  "documentNamespace": "https://spdx.org/spdxdocs/nanosvg-x64-windows-2023-12-29-417757e4-eb67-42cc-bb39-07031531762c",
+  "name": "nanosvg:x64-windows@2023-12-29 4fc460ccefa99bcaa523c74507503bc41fa6d170184b7b14ff8b1ad784810a6a",
   "creationInfo": {
     "creators": [
-      "Tool: vcpkg-2024-09-30-ab8988503c7cffabfd440b243a383c0a352a023d"
+      "Tool: vcpkg-2024-06-10-02590c430e4ed9215d27870138c2e579cc338772"
     ],
-    "created": "2025-02-05T08:16:39Z"
+    "created": "2025-02-16T09:03:54Z"
   },
   "relationships": [
     {
@@ -69,7 +69,7 @@
     {
       "name": "nanosvg:x64-windows",
       "SPDXID": "SPDXRef-binary",
-      "versionInfo": "1329c9f1d39da94ae013a658da6e252e6fd2c59b578e8e34849b52e4a613ed82",
+      "versionInfo": "4fc460ccefa99bcaa523c74507503bc41fa6d170184b7b14ff8b1ad784810a6a",
       "downloadLocation": "NONE",
       "licenseConcluded": "Zlib",
       "licenseDeclared": "NOASSERTION",
@@ -93,7 +93,7 @@
   ],
   "files": [
     {
-      "fileName": "./C:/Users/admin/AppData/Local/vcpkg/registries/git-trees/6fbdab7bdd32d0755336f499d49f9a0f31e8fb36/fltk.patch",
+      "fileName": "./C:/Users/vniki/AppData/Local/vcpkg/registries/git-trees/6fbdab7bdd32d0755336f499d49f9a0f31e8fb36/fltk.patch",
       "SPDXID": "SPDXRef-file-0",
       "checksums": [
         {
@@ -105,7 +105,7 @@
       "copyrightText": "NOASSERTION"
     },
     {
-      "fileName": "./C:/Users/admin/AppData/Local/vcpkg/registries/git-trees/6fbdab7bdd32d0755336f499d49f9a0f31e8fb36/portfile.cmake",
+      "fileName": "./C:/Users/vniki/AppData/Local/vcpkg/registries/git-trees/6fbdab7bdd32d0755336f499d49f9a0f31e8fb36/portfile.cmake",
       "SPDXID": "SPDXRef-file-1",
       "checksums": [
         {
@@ -117,7 +117,7 @@
       "copyrightText": "NOASSERTION"
     },
     {
-      "fileName": "./C:/Users/admin/AppData/Local/vcpkg/registries/git-trees/6fbdab7bdd32d0755336f499d49f9a0f31e8fb36/vcpkg.json",
+      "fileName": "./C:/Users/vniki/AppData/Local/vcpkg/registries/git-trees/6fbdab7bdd32d0755336f499d49f9a0f31e8fb36/vcpkg.json",
       "SPDXID": "SPDXRef-file-2",
       "checksums": [
         {

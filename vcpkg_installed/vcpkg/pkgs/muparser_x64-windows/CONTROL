@@ -1,0 +1,7 @@
+Package: muparser
+Version: 2.3.4
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows
+Multi-Arch: same
+Abi: ab6b29345eefdc93af9ee817ae77f1220767250cffcd1a3e80451d79c95383a2
+Description: Fast math parser library

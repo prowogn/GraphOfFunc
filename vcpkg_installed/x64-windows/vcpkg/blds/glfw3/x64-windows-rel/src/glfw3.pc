@@ -1,7 +1,7 @@
-prefix=C:/Users/admin/source/repos/GraphOfFunc/vcpkg_installed/x64-windows/vcpkg/pkgs/glfw3_x64-windows
+prefix=C:/Users/vniki/OneDrive/Рабочий стол/GraphOfFunc/vcpkg_installed/x64-windows/vcpkg/pkgs/glfw3_x64-windows
 exec_prefix=${prefix}
-includedir=C:/Users/admin/source/repos/GraphOfFunc/vcpkg_installed/x64-windows/vcpkg/pkgs/glfw3_x64-windows/include
-libdir=C:/Users/admin/source/repos/GraphOfFunc/vcpkg_installed/x64-windows/vcpkg/pkgs/glfw3_x64-windows/lib
+includedir=C:/Users/vniki/OneDrive/Рабочий стол/GraphOfFunc/vcpkg_installed/x64-windows/vcpkg/pkgs/glfw3_x64-windows/include
+libdir=C:/Users/vniki/OneDrive/Рабочий стол/GraphOfFunc/vcpkg_installed/x64-windows/vcpkg/pkgs/glfw3_x64-windows/lib
 
 Name: GLFW
 Description: A multi-platform library for OpenGL, window and input

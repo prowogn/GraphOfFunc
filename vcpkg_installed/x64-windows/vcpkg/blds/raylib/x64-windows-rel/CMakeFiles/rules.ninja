@@ -30,7 +30,7 @@ rule CUSTOM_COMMAND
 
 rule C_COMPILER__raylib_unscanned_Release
   deps = msvc
-  command = ${LAUNCHER}${CODE_CHECK}C:\PROGRA~1\MICROS~2\2022\COMMUN~1\VC\Tools\MSVC\1442~1.344\bin\Hostx64\x64\cl.exe   $DEFINES $INCLUDES $FLAGS /showIncludes /Fo$out /Fd$TARGET_COMPILE_PDB /FS -c $in
+  command = ${LAUNCHER}${CODE_CHECK}C:\PROGRA~1\MICROS~4\2022\COMMUN~1\VC\Tools\MSVC\1441~1.341\bin\Hostx64\x64\cl.exe   $DEFINES $INCLUDES $FLAGS /showIncludes /Fo$out /Fd$TARGET_COMPILE_PDB /FS -c $in
   description = Building C object $out
 
 
@@ -38,7 +38,7 @@ rule C_COMPILER__raylib_unscanned_Release
 # Rule for linking C shared library.
 
 rule C_SHARED_LIBRARY_LINKER__raylib_Release
-  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\Users\admin\AppData\Local\vcpkg\downloads\tools\cmake-3.29.2-windows\cmake-3.29.2-windows-i386\bin\cmake.exe -E vs_link_dll --intdir=$OBJECT_DIR --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100226~1.0\x64\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100226~1.0\x64\mt.exe --manifests $MANIFESTS -- C:\PROGRA~1\MICROS~2\2022\COMMUN~1\VC\Tools\MSVC\1442~1.344\bin\Hostx64\x64\link.exe  $in  /out:$TARGET_FILE /implib:$TARGET_IMPLIB /pdb:$TARGET_PDB /dll /version:4.5 $LINK_FLAGS $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\Users\vniki\AppData\Local\vcpkg\downloads\tools\cmake-3.29.2-windows\cmake-3.29.2-windows-i386\bin\cmake.exe -E vs_link_dll --intdir=$OBJECT_DIR --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100226~1.0\x64\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100226~1.0\x64\mt.exe --manifests $MANIFESTS -- C:\PROGRA~1\MICROS~4\2022\COMMUN~1\VC\Tools\MSVC\1441~1.341\bin\Hostx64\x64\link.exe  $in  /out:$TARGET_FILE /implib:$TARGET_IMPLIB /pdb:$TARGET_PDB /dll /version:4.5 $LINK_FLAGS $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C shared library $TARGET_FILE
   restat = $RESTAT
 
@@ -47,7 +47,7 @@ rule C_SHARED_LIBRARY_LINKER__raylib_Release
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = C:\Users\admin\AppData\Local\vcpkg\downloads\tools\cmake-3.29.2-windows\cmake-3.29.2-windows-i386\bin\cmake.exe --regenerate-during-build -SC:\Users\admin\source\repos\GraphOfFunc\vcpkg_installed\x64-windows\vcpkg\blds\raylib\src\5.0-dd5c0ed4a4.clean -BC:\Users\admin\source\repos\GraphOfFunc\vcpkg_installed\x64-windows\vcpkg\blds\raylib\x64-windows-rel
+  command = C:\Users\vniki\AppData\Local\vcpkg\downloads\tools\cmake-3.29.2-windows\cmake-3.29.2-windows-i386\bin\cmake.exe --regenerate-during-build -S"C:\Users\vniki\OneDrive\Рабочий стол\GraphOfFunc\vcpkg_installed\x64-windows\vcpkg\blds\raylib\src\5.0-dd5c0ed4a4.clean" -B"C:\Users\vniki\OneDrive\Рабочий стол\GraphOfFunc\vcpkg_installed\x64-windows\vcpkg\blds\raylib\x64-windows-rel"
   description = Re-running CMake...
   generator = 1
 

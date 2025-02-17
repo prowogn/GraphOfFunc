@@ -1,0 +1,110 @@
+{
+  "$schema": "https://raw.githubusercontent.com/spdx/spdx-spec/v2.2.1/schemas/spdx-schema.json",
+  "spdxVersion": "SPDX-2.2",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "documentNamespace": "https://spdx.org/spdxdocs/muparser-x64-windows-2.3.4-c003ce04-16e3-4e51-bbca-6ac1f4c01714",
+  "name": "muparser:x64-windows@2.3.4 6146dd8c4d693b09695612e6b3739534a0f1c633ba8c9802b88ce9e6082fcae7",
+  "creationInfo": {
+    "creators": [
+      "Tool: vcpkg-2024-06-10-02590c430e4ed9215d27870138c2e579cc338772"
+    ],
+    "created": "2025-02-16T09:03:50Z"
+  },
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "GENERATES",
+      "relatedSpdxElement": "SPDXRef-binary"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-0"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-1"
+    },
+    {
+      "spdxElementId": "SPDXRef-binary",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-0",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-1",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    }
+  ],
+  "packages": [
+    {
+      "name": "muparser",
+      "SPDXID": "SPDXRef-port",
+      "versionInfo": "2.3.4",
+      "downloadLocation": "git+https://github.com/microsoft/vcpkg@7a10458552dd11fbd4d72ff5e978f5f55a82e2f3",
+      "homepage": "https://github.com/beltoforion/muparser",
+      "licenseConcluded": "BSD-2-Clause",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "description": "Fast math parser library",
+      "comment": "This is the port (recipe) consumed by vcpkg."
+    },
+    {
+      "name": "muparser:x64-windows",
+      "SPDXID": "SPDXRef-binary",
+      "versionInfo": "6146dd8c4d693b09695612e6b3739534a0f1c633ba8c9802b88ce9e6082fcae7",
+      "downloadLocation": "NONE",
+      "licenseConcluded": "BSD-2-Clause",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "comment": "This is a binary package built by vcpkg."
+    },
+    {
+      "SPDXID": "SPDXRef-resource-1",
+      "name": "beltoforion/muparser",
+      "downloadLocation": "git+https://github.com/beltoforion/muparser@59e0ce1e0d35d42713af67788f19797945d81364",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "4d0261b9c155b2697ce7222d87ff19be781919e93154bf69455ce36432f66abe2a1ea80a59f7526990f7859f78259014ef56702aa5c7db2ac8c28c8e9491e1f5"
+        }
+      ]
+    }
+  ],
+  "files": [
+    {
+      "fileName": "./C:/Users/vniki/AppData/Local/vcpkg/registries/git-trees/7a10458552dd11fbd4d72ff5e978f5f55a82e2f3/portfile.cmake",
+      "SPDXID": "SPDXRef-file-0",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "ba7b32fb428d24818f77b144cd90fc688d15da566d791b8538ccc0a178c5c34d"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./C:/Users/vniki/AppData/Local/vcpkg/registries/git-trees/7a10458552dd11fbd4d72ff5e978f5f55a82e2f3/vcpkg.json",
+      "SPDXID": "SPDXRef-file-1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "be2a01e611264f05e1e12f402e9bae9036568b4270f3c4ce942759b6784037b8"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    }
+  ]
+}

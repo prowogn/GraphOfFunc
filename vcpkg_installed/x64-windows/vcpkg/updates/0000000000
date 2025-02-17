@@ -1,7 +1,10 @@
-Package: raygui
-Version: 4.0
+Package: raylib
+Version: 5.0
+Port-Version: 1
+Depends: cgltf, dirent, drlibs, glfw3, miniaudio, mmx, nanosvg, qoi, stb, vcpkg-cmake, vcpkg-cmake-config
 Architecture: x64-windows
 Multi-Arch: same
-Abi: 7d7ca7d19d8129e479d6cbcf147fcb428670573c0cdf4d8c2cdffbf69b7a42be
-Description: A simple and easy-to-use immediate-mode gui library
-Status: install ok half-installed
+Abi: fcc307af857513332a7f53e301a874c483e60c23e62deb09f047b622ab59a8c2
+Description: A simple and easy-to-use library to enjoy videogames programming
+Default-Features: use-audio
+Status: purge ok half-installed

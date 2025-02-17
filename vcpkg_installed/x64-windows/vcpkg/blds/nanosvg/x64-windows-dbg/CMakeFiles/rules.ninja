@@ -22,7 +22,7 @@ msvc_deps_prefix = Примечание: включение файла:
 
 rule C_COMPILER__nanosvg_unscanned_Debug
   deps = msvc
-  command = ${LAUNCHER}${CODE_CHECK}C:\PROGRA~1\MICROS~2\2022\COMMUN~1\VC\Tools\MSVC\1442~1.344\bin\Hostx64\x64\cl.exe   $DEFINES $INCLUDES $FLAGS /showIncludes /Fo$out /Fd$TARGET_COMPILE_PDB /FS -c $in
+  command = ${LAUNCHER}${CODE_CHECK}C:\PROGRA~1\MICROS~4\2022\COMMUN~1\VC\Tools\MSVC\1441~1.341\bin\Hostx64\x64\cl.exe   $DEFINES $INCLUDES $FLAGS /showIncludes /Fo$out /Fd$TARGET_COMPILE_PDB /FS -c $in
   description = Building C object $out
 
 
@@ -30,7 +30,7 @@ rule C_COMPILER__nanosvg_unscanned_Debug
 # Rule for linking C static library.
 
 rule C_STATIC_LIBRARY_LINKER__nanosvg_Debug
-  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\PROGRA~1\MICROS~2\2022\COMMUN~1\VC\Tools\MSVC\1442~1.344\bin\Hostx64\x64\lib.exe  $LINK_FLAGS /out:$TARGET_FILE $in && $POST_BUILD"
+  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\PROGRA~1\MICROS~4\2022\COMMUN~1\VC\Tools\MSVC\1441~1.341\bin\Hostx64\x64\lib.exe  $LINK_FLAGS /out:$TARGET_FILE $in && $POST_BUILD"
   description = Linking C static library $TARGET_FILE
   restat = $RESTAT
 
@@ -40,7 +40,7 @@ rule C_STATIC_LIBRARY_LINKER__nanosvg_Debug
 
 rule C_COMPILER__nanosvgrast_unscanned_Debug
   deps = msvc
-  command = ${LAUNCHER}${CODE_CHECK}C:\PROGRA~1\MICROS~2\2022\COMMUN~1\VC\Tools\MSVC\1442~1.344\bin\Hostx64\x64\cl.exe   $DEFINES $INCLUDES $FLAGS /showIncludes /Fo$out /Fd$TARGET_COMPILE_PDB /FS -c $in
+  command = ${LAUNCHER}${CODE_CHECK}C:\PROGRA~1\MICROS~4\2022\COMMUN~1\VC\Tools\MSVC\1441~1.341\bin\Hostx64\x64\cl.exe   $DEFINES $INCLUDES $FLAGS /showIncludes /Fo$out /Fd$TARGET_COMPILE_PDB /FS -c $in
   description = Building C object $out
 
 
@@ -48,7 +48,7 @@ rule C_COMPILER__nanosvgrast_unscanned_Debug
 # Rule for linking C static library.
 
 rule C_STATIC_LIBRARY_LINKER__nanosvgrast_Debug
-  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\PROGRA~1\MICROS~2\2022\COMMUN~1\VC\Tools\MSVC\1442~1.344\bin\Hostx64\x64\lib.exe  $LINK_FLAGS /out:$TARGET_FILE $in && $POST_BUILD"
+  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\PROGRA~1\MICROS~4\2022\COMMUN~1\VC\Tools\MSVC\1441~1.341\bin\Hostx64\x64\lib.exe  $LINK_FLAGS /out:$TARGET_FILE $in && $POST_BUILD"
   description = Linking C static library $TARGET_FILE
   restat = $RESTAT
 
@@ -65,7 +65,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = C:\Users\admin\AppData\Local\vcpkg\downloads\tools\cmake-3.29.2-windows\cmake-3.29.2-windows-i386\bin\cmake.exe --regenerate-during-build -SC:\Users\admin\source\repos\GraphOfFunc\vcpkg_installed\x64-windows\vcpkg\blds\nanosvg\src\3c38610b1f-dc4edc4939.clean -BC:\Users\admin\source\repos\GraphOfFunc\vcpkg_installed\x64-windows\vcpkg\blds\nanosvg\x64-windows-dbg
+  command = C:\Users\vniki\AppData\Local\vcpkg\downloads\tools\cmake-3.29.2-windows\cmake-3.29.2-windows-i386\bin\cmake.exe --regenerate-during-build -S"C:\Users\vniki\OneDrive\Рабочий стол\GraphOfFunc\vcpkg_installed\x64-windows\vcpkg\blds\nanosvg\src\3c38610b1f-dc4edc4939.clean" -B"C:\Users\vniki\OneDrive\Рабочий стол\GraphOfFunc\vcpkg_installed\x64-windows\vcpkg\blds\nanosvg\x64-windows-dbg"
   description = Re-running CMake...
   generator = 1
 

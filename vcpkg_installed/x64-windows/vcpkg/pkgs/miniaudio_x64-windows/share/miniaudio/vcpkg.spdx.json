@@ -3,13 +3,13 @@
   "spdxVersion": "SPDX-2.2",
   "dataLicense": "CC0-1.0",
   "SPDXID": "SPDXRef-DOCUMENT",
-  "documentNamespace": "https://spdx.org/spdxdocs/miniaudio-x64-windows-0.11.21-7c342f56-a853-4776-ba42-d9ebc07ffed8",
-  "name": "miniaudio:x64-windows@0.11.21 7fd76e3196c92282f6065f77a024bed163cf3b602b33319b35c44989cf8d32f0",
+  "documentNamespace": "https://spdx.org/spdxdocs/miniaudio-x64-windows-0.11.21-8b4de8b9-b18c-432a-95a4-ff01b36769d4",
+  "name": "miniaudio:x64-windows@0.11.21 6165135ce8b5279f54f6d5b43737f07414663988ecc48b6a7383580f253aec5c",
   "creationInfo": {
     "creators": [
-      "Tool: vcpkg-2024-09-30-ab8988503c7cffabfd440b243a383c0a352a023d"
+      "Tool: vcpkg-2024-06-10-02590c430e4ed9215d27870138c2e579cc338772"
     ],
-    "created": "2025-02-05T08:16:44Z"
+    "created": "2025-02-16T09:03:54Z"
   },
   "relationships": [
     {
@@ -59,7 +59,7 @@
     {
       "name": "miniaudio:x64-windows",
       "SPDXID": "SPDXRef-binary",
-      "versionInfo": "7fd76e3196c92282f6065f77a024bed163cf3b602b33319b35c44989cf8d32f0",
+      "versionInfo": "6165135ce8b5279f54f6d5b43737f07414663988ecc48b6a7383580f253aec5c",
       "downloadLocation": "NONE",
       "licenseConcluded": "Unlicense OR MIT-0",
       "licenseDeclared": "NOASSERTION",
@@ -83,7 +83,7 @@
   ],
   "files": [
     {
-      "fileName": "./C:/Users/admin/AppData/Local/vcpkg/registries/git-trees/980dc0e20ab6855dfe916b881f580cd9f371f991/portfile.cmake",
+      "fileName": "./C:/Users/vniki/AppData/Local/vcpkg/registries/git-trees/980dc0e20ab6855dfe916b881f580cd9f371f991/portfile.cmake",
       "SPDXID": "SPDXRef-file-0",
       "checksums": [
         {
@@ -95,7 +95,7 @@
       "copyrightText": "NOASSERTION"
     },
     {
-      "fileName": "./C:/Users/admin/AppData/Local/vcpkg/registries/git-trees/980dc0e20ab6855dfe916b881f580cd9f371f991/vcpkg.json",
+      "fileName": "./C:/Users/vniki/AppData/Local/vcpkg/registries/git-trees/980dc0e20ab6855dfe916b881f580cd9f371f991/vcpkg.json",
       "SPDXID": "SPDXRef-file-1",
       "checksums": [
         {

@@ -60,14 +60,14 @@ set_target_properties(NanoSVG::nanosvgrast PROPERTIES
 set_property(TARGET NanoSVG::nanosvg APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(NanoSVG::nanosvg PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_DEBUG "C"
-  IMPORTED_LOCATION_DEBUG "C:/Users/admin/source/repos/GraphOfFunc/vcpkg_installed/x64-windows/vcpkg/blds/nanosvg/x64-windows-dbg/nanosvg.lib"
+  IMPORTED_LOCATION_DEBUG "C:/Users/vniki/OneDrive/Рабочий стол/GraphOfFunc/vcpkg_installed/x64-windows/vcpkg/blds/nanosvg/x64-windows-dbg/nanosvg.lib"
   )
 
 # Import target "NanoSVG::nanosvgrast" for configuration "Debug"
 set_property(TARGET NanoSVG::nanosvgrast APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(NanoSVG::nanosvgrast PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_DEBUG "C"
-  IMPORTED_LOCATION_DEBUG "C:/Users/admin/source/repos/GraphOfFunc/vcpkg_installed/x64-windows/vcpkg/blds/nanosvg/x64-windows-dbg/nanosvgrast.lib"
+  IMPORTED_LOCATION_DEBUG "C:/Users/vniki/OneDrive/Рабочий стол/GraphOfFunc/vcpkg_installed/x64-windows/vcpkg/blds/nanosvg/x64-windows-dbg/nanosvgrast.lib"
   )
 
 # This file does not depend on other imported targets which have

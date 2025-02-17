@@ -1,8 +1,8 @@
-C:/Users/admin/source/repos/GraphOfFunc/vcpkg_installed/x64-windows/vcpkg/pkgs/nanosvg_x64-windows/lib/nanosvg.lib
-C:/Users/admin/source/repos/GraphOfFunc/vcpkg_installed/x64-windows/vcpkg/pkgs/nanosvg_x64-windows/lib/nanosvgrast.lib
-C:/Users/admin/source/repos/GraphOfFunc/vcpkg_installed/x64-windows/vcpkg/pkgs/nanosvg_x64-windows/include/nanosvg/nanosvg.h
-C:/Users/admin/source/repos/GraphOfFunc/vcpkg_installed/x64-windows/vcpkg/pkgs/nanosvg_x64-windows/include/nanosvg/nanosvgrast.h
-C:/Users/admin/source/repos/GraphOfFunc/vcpkg_installed/x64-windows/vcpkg/pkgs/nanosvg_x64-windows/lib/cmake/NanoSVG/NanoSVGTargets.cmake
-C:/Users/admin/source/repos/GraphOfFunc/vcpkg_installed/x64-windows/vcpkg/pkgs/nanosvg_x64-windows/lib/cmake/NanoSVG/NanoSVGTargets-release.cmake
-C:/Users/admin/source/repos/GraphOfFunc/vcpkg_installed/x64-windows/vcpkg/pkgs/nanosvg_x64-windows/lib/cmake/NanoSVG/NanoSVGConfig.cmake
-C:/Users/admin/source/repos/GraphOfFunc/vcpkg_installed/x64-windows/vcpkg/pkgs/nanosvg_x64-windows/lib/cmake/NanoSVG/NanoSVGConfigVersion.cmake
+C:/Users/vniki/OneDrive/Рабочий стол/GraphOfFunc/vcpkg_installed/x64-windows/vcpkg/pkgs/nanosvg_x64-windows/lib/nanosvg.lib
+C:/Users/vniki/OneDrive/Рабочий стол/GraphOfFunc/vcpkg_installed/x64-windows/vcpkg/pkgs/nanosvg_x64-windows/lib/nanosvgrast.lib
+C:/Users/vniki/OneDrive/Рабочий стол/GraphOfFunc/vcpkg_installed/x64-windows/vcpkg/pkgs/nanosvg_x64-windows/include/nanosvg/nanosvg.h
+C:/Users/vniki/OneDrive/Рабочий стол/GraphOfFunc/vcpkg_installed/x64-windows/vcpkg/pkgs/nanosvg_x64-windows/include/nanosvg/nanosvgrast.h
+C:/Users/vniki/OneDrive/Рабочий стол/GraphOfFunc/vcpkg_installed/x64-windows/vcpkg/pkgs/nanosvg_x64-windows/lib/cmake/NanoSVG/NanoSVGTargets.cmake
+C:/Users/vniki/OneDrive/Рабочий стол/GraphOfFunc/vcpkg_installed/x64-windows/vcpkg/pkgs/nanosvg_x64-windows/lib/cmake/NanoSVG/NanoSVGTargets-release.cmake
+C:/Users/vniki/OneDrive/Рабочий стол/GraphOfFunc/vcpkg_installed/x64-windows/vcpkg/pkgs/nanosvg_x64-windows/lib/cmake/NanoSVG/NanoSVGConfig.cmake
+C:/Users/vniki/OneDrive/Рабочий стол/GraphOfFunc/vcpkg_installed/x64-windows/vcpkg/pkgs/nanosvg_x64-windows/lib/cmake/NanoSVG/NanoSVGConfigVersion.cmake

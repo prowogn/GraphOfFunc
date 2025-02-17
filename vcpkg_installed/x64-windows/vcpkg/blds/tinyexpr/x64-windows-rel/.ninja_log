@@ -1,0 +1,5 @@
+# ninja log v5
+2	96	7613998527707134	CMakeFiles/tinyexpr.dir/tinyexpr.c.obj	67196f9cd782d19a
+97	179	7613998528414421	tinyexpr.dll	e7aea14783eb6b4b
+97	179	7613998528414421	tinyexpr.lib	e7aea14783eb6b4b
+179	244	0	CMakeFiles/install.util	3ebee2bfe046b6f
